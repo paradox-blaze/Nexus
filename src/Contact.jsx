@@ -29,24 +29,24 @@ const Contact = () => {
                     <hr className="mt-5" />
 
                     <div className="flex gap-2 mt-10">
-                        <img src="src/assets/icons8-mail-50.png" alt="mail" className="h-5 mt-0.5 px-0.5" />
+                        <img src="/assets/icons8-mail-50.png" alt="mail" className="h-5 mt-0.5 px-0.5" />
                         <p className="text-gray-400"> hello@mail.com</p>
                     </div>
 
                     <div className="flex gap-2 mt-10">
-                        <img src="src/assets/icons8-globe-50.png" alt="globe" className="h-6" />
+                        <img src="/assets/icons8-globe-50.png" alt="globe" className="h-6" />
                         <p className="text-gray-400">www.abc.com</p>
                     </div>
 
                     <div className="flex gap-2 mt-10">
-                        <img src="src/assets/icons8-location-50.png" alt="location" className="h-6" />
+                        <img src="/assets/icons8-location-50.png" alt="location" className="h-6" />
                         <p className="text-gray-400">New York City, USA</p>
 
                     </div>
 
                     <div className="flex gap-2 mt-10">
 
-                        <img src="src/assets/icons8-phonecall-50.png" alt="phone" className="h-5 px-1" />
+                        <img src="/assets/icons8-phonecall-50.png" alt="phone" className="h-5 px-1" />
                         <p className="text-gray-400">123-456-789</p>
 
                     </div>
@@ -55,10 +55,10 @@ const Contact = () => {
                         <h1 className="text-lg font-medium text-slate-600 mt-40 mb-5">Social Media</h1>
                         <hr />
                         <div className="flex gap-7 mt-10">
-                            <img src="src/assets/icons8-instagram-50.png" alt="insta" className="h-10" />
-                            <img src="src/assets/icons8-twitter-50.png" alt="twitter" className="h-10" />
-                            <img src="src/assets/icons8-facebook-50.png" alt="facebook" className="h-10" />
-                            <img src="src/assets/icons8-linked-in-50.png" alt="linkedin" className="h-10" />
+                            <img src="/assets/icons8-instagram-50.png" alt="insta" className="h-10" />
+                            <img src="/assets/icons8-twitter-50.png" alt="twitter" className="h-10" />
+                            <img src="/assets/icons8-facebook-50.png" alt="facebook" className="h-10" />
+                            <img src="/assets/icons8-linked-in-50.png" alt="linkedin" className="h-10" />
                         </div>
                     </div>
 

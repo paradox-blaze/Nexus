@@ -57,37 +57,37 @@ const About = () => {
 
             <div className="flex flex-wrap justify-evenly workerContainer">
                 <div id="lila" className={`mb-12 lila fade-in ${visibleElements['lila'] ? 'visible' : ''}`}>
-                    <img src="src/assets/Lila Iaconsia.png" alt="Lila" className="workers" />
+                    <img src="/assets/Lila Iaconsia.png" alt="Lila" className="workers" />
                     <p className="text-center mt-10 text-2xl font-medium">Lila Laconsia</p>
                     <p className="text-center mt-2 text-slate-400">Marketing</p>
                 </div>
 
                 <div id="ana" className={`fade-in ${visibleElements['ana'] ? 'visible' : ''}`}>
-                    <img src="src/assets/Ana Louren.png" alt="Ana" className="workers" />
+                    <img src="/assets/Ana Louren.png" alt="Ana" className="workers" />
                     <p className="text-center mt-10 text-2xl font-medium">Ana Louren</p>
                     <p className="text-center mt-2 text-slate-400">Design</p>
                 </div>
 
                 <div id="rico" className={`fade-in ${visibleElements['rico'] ? 'visible' : ''}`}>
-                    <img src="src/assets/Rico John.png" alt="Rico" className="workers" />
+                    <img src="/assets/Rico John.png" alt="Rico" className="workers" />
                     <p className="text-center mt-10 text-2xl font-medium">Rico John</p>
                     <p className="text-center mt-2 text-slate-400">Artist</p>
                 </div>
 
                 <div id="randy" className={`fade-in ${visibleElements['randy'] ? 'visible' : ''}`}>
-                    <img src="src/assets/Randy Okla.png" alt="Randy" className="workers" />
+                    <img src="/assets/Randy Okla.png" alt="Randy" className="workers" />
                     <p className="text-center mt-10 text-2xl font-medium">Randy Okla</p>
                     <p className="text-center mt-2 text-slate-400">Pianist</p>
                 </div>
 
                 <div id="sinta" className={`fade-in ${visibleElements['sinta'] ? 'visible' : ''}`}>
-                    <img src="src/assets/Sinta Marcus.png" alt="Sinta" className="workers" />
+                    <img src="/assets/Sinta Marcus.png" alt="Sinta" className="workers" />
                     <p className="text-center mt-10 text-2xl font-medium">Sinta Marcus</p>
                     <p className="text-center mt-2 text-slate-400">Vocal Coach</p>
                 </div>
 
                 <div id="sam" className={`fade-in ${visibleElements['sam'] ? 'visible' : ''}`}>
-                    <img src="src/assets/Sam Rivald.png" alt="Sam" className="workers" />
+                    <img src="/assets/Sam Rivald.png" alt="Sam" className="workers" />
                     <p className="text-center mt-10 text-2xl font-medium">Sarah Jae</p>
                     <p className="text-center mt-2 text-slate-400">Mastering Engineer</p>
                 </div>

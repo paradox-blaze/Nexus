@@ -33,7 +33,7 @@ const Homepage = () => {
             text: "I am very satisfied with the work on the Nexus team. good service, satisfying work results and good sounding mixes. Thank you so much to the Nexus team.",
             name: "John Richard",
             role: "Artist",
-            image: "src/assets/johnrichard.png"
+            image: "/assets/johnrichard.png"
         },
     ];
 
@@ -89,23 +89,23 @@ const Homepage = () => {
                         <Link to="contact" className="px-12 py-5 w-12 h-12 border border-black mr-2 border-2 rounded-md hover:bg-black hover:text-white">Contact Us</Link>
                         <Link to="about" className="px-12 py-5 w-12 h-12 border border-black rounded-md border-2 hover:bg-black hover:text-white">About Us</Link>
                     </div>
-                    <img src="src/assets/techivation-WHTq-xyU40o-unsplash.jpg" alt="tech" className="h-96 imageOfHome" />
+                    <img src="/assets/techivation-WHTq-xyU40o-unsplash.jpg" alt="tech" className="h-96 imageOfHome" />
                 </div>
             </div>
             <h1 id="meet-team" className={`font-bold text-4xl ml-36 mt-44 fade-in ${visibleElements['meet-team'] ? 'visible' : ''}`}>Meet our team</h1>
             <div className="flex team gap-6 justify-evenly">
                 <div className={`sarah fade-in ${visibleElements['sarah'] ? 'visible' : ''}`} id="sarah">
-                    <img src="src/assets/Sarah Doe.png" alt="sarah" />
+                    <img src="/assets/Sarah Doe.png" alt="sarah" />
                     <p className="text-center mt-10 text-2xl font-medium">Sarah Jae</p>
                     <p className="text-center mt-2 text-slate-400">Mixing Engineer</p>
                 </div>
                 <div className={`john fade-in ${visibleElements['john'] ? 'visible' : ''}`} id="john">
-                    <img src="src/assets/John Doe.png" alt="John" />
+                    <img src="/assets/John Doe.png" alt="John" />
                     <p className="text-center mt-10 text-2xl font-medium">John Doe</p>
                     <p className="text-center mt-2 text-slate-400">Mastering Engineer</p>
                 </div>
                 <div className={`samantha fade-in ${visibleElements['samantha'] ? 'visible' : ''}`} id="samantha">
-                    <img src="src/assets/Samantha.png" alt="samantha" />
+                    <img src="/assets/Samantha.png" alt="samantha" />
                     <p className="text-center mt-10 text-2xl font-medium">Samantha</p>
                     <p className="text-center mt-2 text-slate-400">Producer</p>
                 </div>
