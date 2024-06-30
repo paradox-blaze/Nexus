@@ -1,0 +1,349 @@
+.homepage {
+  background-color: rgb(204 250 245);
+  height: 38rem;
+  width: 76rem;
+  margin-left: 8rem;
+  margin-top: 5rem;
+  border-radius: 3rem;
+  padding: 5.375rem;
+}
+
+.imageOfHome {
+  border-radius: 3rem;
+}
+
+.team {
+  width: 76rem;
+  margin-left: 8rem;
+  margin-top: 5rem;
+}
+
+.wwdContainer {
+  background-color: #ffecec;
+  display: flex;
+  justify-content: space-around;
+  height: 30rem;
+  width: 76rem;
+  margin-left: 8rem;
+  margin-top: 5rem;
+  border-radius: 5rem;
+  padding: 5.375rem;
+}
+
+.wwdItem {
+  text-align: center;
+  height: 15rem;
+  width: 30rem;
+  margin: 1rem;
+  background-color: white;
+  border-radius: 1rem;
+
+}
+
+.homepageSlider {
+  background-color: #f5fccf;
+  height: 33rem;
+  width: 92rem;
+  margin-top: 9rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.homepageSlider::before,
+.homepageSlider::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 10%;
+  /* Adjust width as needed for the fading effect */
+  pointer-events: none;
+  /* Ensure the pseudo-elements don't block interaction with content */
+  z-index: 1;
+  /* Ensure the pseudo-elements appear above the background but below content */
+}
+
+.homepageSlider::before {
+  left: 0;
+  background: linear-gradient(to right, #ffffff 0%, rgba(245, 252, 207, 0) 100%);
+}
+
+.homepageSlider::after {
+  right: 0;
+  background: linear-gradient(to left, #ffffff 0%, rgba(245, 252, 207, 0) 100%);
+}
+
+.circle {
+
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+  width: 4.3rem;
+  height: 4.3rem;
+  margin-left: 43.5rem;
+  margin-top: 6.5rem;
+  padding: 0.6rem;
+
+}
+
+.innerCircle {
+  border-radius: 50%;
+  background-color: #e05d5d;
+  width: 3.2rem;
+  height: 3.2rem;
+
+
+}
+
+
+.customerReview {
+
+  text-align: center;
+
+  height: 14em;
+  width: 22rem;
+  background-color: white;
+  border-radius: 1rem;
+
+}
+
+.slider-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  z-index: 2;
+  padding: 0.5rem 1rem;
+}
+
+.slider-button.left {
+  left: 10px;
+}
+
+.slider-button.right {
+  right: 10px;
+}
+
+.reviews-container {
+  overflow: hidden;
+  display: flex;
+  scroll-behavior: smooth;
+}
+
+.customerReview {
+  min-width: 22rem;
+  /* Ensure all reviews have the same width */
+  margin-right: 1rem;
+  text-align: center;
+  height: 14em;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+
+.footer {
+  background-color: #3c3c3c;
+  width: 100%;
+  height: 8rem;
+  margin-top: 4.4rem;
+  overflow: hidden;
+
+  position: absolute;
+}
+
+.aboutFirst {
+  background-color: #fefccc;
+
+  justify-content: space-around;
+  height: 34rem;
+  width: 76rem;
+  margin-left: 8rem;
+  margin-top: 5rem;
+  border-radius: 5rem;
+  padding: 5rem;
+}
+
+.workers {
+  height: 28rem;
+}
+
+.workerContainer {
+  width: 76rem;
+  margin-left: 8rem;
+  margin-top: 5rem;
+}
+
+
+.worksFirst {
+  background-color: #ccffd7;
+  justify-content: space-around;
+  height: 34rem;
+  width: 76rem;
+  margin-left: 8rem;
+  margin-top: 5rem;
+  border-radius: 5rem;
+  padding: 5rem;
+}
+
+.worksSecond {
+  background-color: #51225b;
+  justify-content: space-around;
+  height: 34rem;
+  width: 76rem;
+  margin-left: 8rem;
+  margin-top: 5rem;
+  border-radius: 5rem;
+  padding: 5rem;
+}
+
+.worksThird {
+  background-color: #3d73ad;
+  justify-content: space-around;
+  height: 34rem;
+  width: 76rem;
+  margin-left: 4rem;
+  margin-top: 5rem;
+  border-radius: 5rem;
+  padding: 5rem;
+}
+
+.worksFourth {
+  background-color: #d84753;
+  justify-content: space-around;
+  height: 34rem;
+  width: 76rem;
+  margin-left: 8rem;
+  margin-top: 5rem;
+  border-radius: 5rem;
+  padding: 5rem;
+}
+
+.firstWorks {
+  height: 25rem;
+  border-radius: 25px;
+}
+
+.secondWorks {
+  height: 25rem;
+  border-radius: 25px;
+}
+
+.thirdWorks {
+  height: 27rem;
+  border-radius: 25px;
+}
+
+
+.contactFirst {
+  background-color: #e5eeff;
+  justify-content: space-around;
+  height: 34rem;
+  width: 76rem;
+  margin-left: 8rem;
+  margin-top: 5rem;
+  border-radius: 5rem;
+  padding: 5rem;
+}
+
+.contactSecond {
+  background-color: white;
+  justify-content: space-around;
+  height: 40rem;
+  width: 45rem;
+  margin-left: 8rem;
+  margin-top: 5rem;
+  border-radius: 5rem;
+  padding: 5rem;
+  box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.3);
+
+
+
+
+}
+
+input,
+textarea {
+  background-color: #f6f6f6;
+  outline: none;
+}
+
+.inputName {
+  height: 5rem;
+  width: 15rem;
+  border-radius: 10px;
+}
+
+.inputMail {
+  height: 5rem;
+  width: 15rem;
+  border-radius: 10px;
+}
+
+textarea {
+  width: 32.5rem;
+  height: 10rem;
+
+}
+
+.sendButton {
+  background-color: #26a953;
+  color: white;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 30px;
+  box-shadow: 15px 15px 30px #26a953;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.sendButton:active {
+  transform: scale(0.95);
+  box-shadow: 5px 5px 15px #26a953;
+}
+
+.contactThird {
+  background-color: white;
+  justify-content: space-around;
+  height: 47rem;
+  width: 25rem;
+  margin-left: 3rem;
+  margin-top: 5rem;
+  border-radius: 1rem;
+  padding: 5rem;
+  box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+
+.fade-in {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1.2s;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+.fade-in-initial {
+  animation: fadeInLeft 1.2s ease-out forwards;
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  }
+}
